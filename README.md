@@ -1,6 +1,6 @@
 ## Synthetic Industrial Dataset for Energy Disaggregation (SIDED)
 
-![Example data of one week of energy consumption for Office configuration in the Offenbach location.](https://github.com/ChristianInterno/SIDED/blob/main/Img/1440.pdf)
+![Example data of one week of energy consumption for Office configuration in the Offenbach location.](https://github.com/ChristianInterno/SIDED/blob/main/Img/1440.png)
 
 
 ## Introduction
