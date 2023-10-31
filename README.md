@@ -7,13 +7,12 @@ Monitoring the electrical consumption of individual appliances is crucial in mod
 
 | Topic                                      | Link                                          |
 |--------------------------------------------|-----------------------------------------------|
-| Number of Appliances                       | [🔗](#number-of-appliances)                   |
-| Duration                                   | [🔗](#duration)                               |
-| Sampling Rate                              | [🔗](#sampling-rate)                          |
-| Scope                                      | [🔗](#scope)                                  |
-| Compatible to NILMTK?                      | [🔗](#compatible-to-nilmtk)                   |
-| Where can I learn more about SynD?         | [🔗](#where-can-i-learn-more-about-synd)      |
-
+| Number of Appliances                       | 5                                             |
+| Time                                       | 9 year in total                               |
+| Sampling Rate                              | $\tfrac{1}{60} Hz$                            |
+| Scope                                      | Industrial NILM                               |
+| Compatible to NILMTK?                      | Yes                                           |
+| Where can I learn more about SynD?         | Pubblication soon                             |
 
 
 
