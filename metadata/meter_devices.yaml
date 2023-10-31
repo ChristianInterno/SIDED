@@ -1,0 +1,32 @@
+eMonitor:
+  model: model1
+  manufacturer: manufacturer1
+  manufacturer_url: /
+  description: >
+    Measures circuit-level power demand.  Comes with 24 CTs.
+    This FAQ page suggests the eMonitor measures real (active)
+    power: http://www.energycircle.com/node/14103  although the REDD
+    readme.txt says all channels record apparent power.
+  sample_period: 3   # the interval between samples. In seconds.
+  max_sample_period: 50   # Max allowable interval between samples. Seconds.
+  measurements:
+  - physical_quantity: power   # power, voltage, energy, current?
+    type: active   # active (real power), reactive or apparent?
+    upper_limit: 50000
+    lower_limit: -50000
+  wireless: false
+
+REDD_whole_house:
+  description: >
+    Each facility type in the dataset contains profiles for five different appliances: Electric Vehicle Supply Equipment (EVSE), Cooling Systems (CS), Photo  Voltaic (PV), Combined Heat and Power (CHP), and Background Appliances (BA), which sums up all smaller devices such as personal computers, various machinery, servers, or other household appliances.
+    The EVSE, BA and SC are consumers of electrical energy, while PV and CHP are producers.
+    The CHP system uses natural gas to produce electricity and heating, and its efficiency is about 35\%.
+    Important configuration aspects are the size of the information technology (IT) components (server power) the presence and size of separate server cooling, the presence and sizes of stationary battery storage capacity, or the working days per week.  
+  sample_period: 1
+  max_sample_period: 30
+  measurements:
+  - physical_quantity: power
+    type: Smart company
+    upper_limit: 50000
+    lower_limit: -50000
+  wireless: false

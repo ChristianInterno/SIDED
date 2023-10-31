@@ -1,0 +1,40 @@
+instance: 1   # this is the first building in the dataset
+original_name: Office_Tokyo   # original name from SIDED dataset
+elec_meters:
+  1: &sided_whole_building
+    site_meter: true
+    device_model: SIDED_whole_building
+  2: *sided_whole_building
+  3: &emonitor
+    submeter_of: 0 
+    device_model: eMonitor
+
+appliances:
+- original_name: EVSE
+  type: Plug-in electric vehicle station
+  instance: 1
+  meters: [3]   
+
+- original_name: PV
+  type: Photovoltaic system total power
+  instance: 1
+  meters: [3]
+
+- original_name: CS
+  type: Cooling Systems total power
+  instance: 1
+  meters: [3]
+
+- original_name: CHP
+  type: Combined heat and power tota   
+  instance: 1
+  multiple: true  
+  meters: [3]
+
+- original_name: BA
+  type: Backgorund appliance 
+  instance: 2   
+  multiple: true   
+  meters: [8]
+
+
