@@ -12,7 +12,7 @@ Monitoring the electrical consumption of individual appliances is crucial in mod
 | Sampling Rate                              | $\tfrac{1}{60} Hz$                            |
 | Scope                                      | Industrial NILM                               |
 | Compatible to NILMTK?                      | Yes                                           |
-| Where can I learn more about SynD?         | Pubblication soon                             |
+| Where can I learn more about SynD?         | Publication soon                              |
 
 
 ## Dataset Description
