@@ -1,6 +1,6 @@
 ## Synthetic Industrial Dataset for Energy Disaggregation (SIDED)
 
-![Header Image](blob:null/747870e1-ea3d-4013-8cb3-21c24b67485f)
+![Header Image](Img/1440-1.png)
 
 
 ## Introduction
