@@ -1,7 +1,7 @@
 ## Synthetic Industrial Dataset for Energy Disaggregation (SIDED)
 
 ### Download the Dataset
-To access and download the SIDED dataset, click the button below:
+To access and download the SIDED dataset, click the button:
 [![Download SIDED Dataset](https://img.shields.io/badge/Download-Dataset-blue.svg)](https://figshare.com/s/f824da90af2d8318de6a)
 
 
