@@ -1,5 +1,9 @@
 ## Synthetic Industrial Dataset for Energy Disaggregation (SIDED)
 
+### Download the Dataset
+To access and download the SIDED dataset, click the button below:
+[![Download SIDED Dataset](https://img.shields.io/badge/Download-Dataset-blue.svg)]([https://figshare.com/s/f824da90af2d8318de6a](https://figshare.com/s/f824da90af2d8318de6a))
+
 
 ## Introduction
 Monitoring the electrical consumption of individual appliances is crucial in modern smart monitoring systems. Non-Intrusive Load Monitoring (NILM) techniques disaggregate the main meter signal of a building into its independent componentss. This repository introduces the SIDED dataset, a synthetic industrial dataset for energy disaggregation, crafted using Digital Twin technology. While most NILM methods cater to household settings, they may falter in industrial contexts due to systematic differences in the behavior of industrial appliances.
