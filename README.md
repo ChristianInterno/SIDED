@@ -22,7 +22,7 @@ Monitoring the electrical consumption of individual appliances is crucial in mod
 ## Dataset Description
 SIDED is a public industrial dataset that includes energy consumption records for nine smart company buildings over a complete calendar year, with energy readings taken at one-minute intervals. The dataset replicates energy consumption patterns for three distinct types of buildings:
 - Offices
-- Dealerships
+- Dealer
 - Logistics centers
 
 It covers three different geographical locations:
