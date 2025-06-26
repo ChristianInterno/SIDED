@@ -43,7 +43,7 @@ SIDED provides nine full years of data, representing one year for each of the ni
 | **Sampling Rate** | $\tfrac{1}{60} \text{Hz}$ (one-minute intervals).                                                                                 |
 | **Total Data Points** | 4,730,400 (525,600 per configuration).                                                                                     |
 
-![Example data from the SIDED dataset, showing various configurations and locations.](Img/plot_days.pdf)
+![Example data from the SIDED dataset, showing various configurations and locations.](Img/plot_days-1.png)
 *Example week from SIDED showing the different behaviors for Office (Offenbach), Logistic (Los Angeles), and Dealer (Tokyo) configurations. Negative power values indicate generation from PV and CHP systems.*
 
 ### Appliance Characteristics
