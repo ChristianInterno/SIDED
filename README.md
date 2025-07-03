@@ -40,11 +40,11 @@ SIDED provides nine full years of data, representing one year for each of the ni
 | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
 | **Total Configurations** | 9 (3 Facility Types × 3 Locations)                                                                                         |
 | **Facility Types** | Office, Dealer, Logistics Center                                                                                           |
-| **Geographic Locations**| Offenbach (Germany), Los Angeles (USA), Tokyo (Japan)                        _**This is a placeholder, please replace with your actual URL.**_ |
+| **Geographic Locations**| Offenbach (Germany), Los Angeles (USA), Tokyo (Japan)                        
 | **Appliances Tracked** | 5: Combined Heat and Power (CHP), Cooling Systems (CS), EV Supply Equipment (EVSE), Photovoltaic (PV), and Background Appliances (BA). |
 | **Duration** | 9 years total (one complete calendar year per configuration).                                                                    |
 | **Sampling Rate** | $\tfrac{1}{60} \text{Hz}$ (one-minute intervals).                                                                                 |
-| **Total Data Points** | 4,730,400 (525,600 per configuration).                                                  _**This is a placeholder, please replace with your actual URL.**_ |
+| **Total Data Points** | 4,730,400 (525,600 per configuration).                                                  _
 
 ![Example data from the SIDED dataset, showing various configurations and locations.](Img/plot_days-1.png)
 *Example week from SIDED showing the different behaviors for Office (Offenbach), Logistic (Los Angeles), and Dealer (Tokyo) configurations. Negative power values indicate generation from PV and CHP systems.*
