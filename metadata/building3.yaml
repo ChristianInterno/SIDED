@@ -18,23 +18,23 @@ appliances:
 - original_name: PV
   type: Photovoltaic system total power
   instance: 1
-  meters: [3]
+  meters: [4]
 
 - original_name: CS
   type: Cooling Systems total power
   instance: 1
-  meters: [3]
+  meters: [5]
 
 - original_name: CHP
   type: Combined heat and power   
   instance: 1
   multiple: true  
-  meters: [3]
+  meters: [6]
 
 - original_name: BA
   type: Backgorund appliance 
   instance: 2   
   multiple: true   
-  meters: [8]
+  meters: [7]
 
 
