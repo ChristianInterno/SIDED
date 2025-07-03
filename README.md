@@ -15,11 +15,14 @@ SIDED is a novel, open-source dataset generated using a high-fidelity Digital Tw
 If you use the SIDED dataset or the AMDA method in your research, please cite the following paper:
 
 ```bibtex
-@article{interno2025industrial,
-  title={{Industrial Energy Disaggregation with Digital Twin-generated Dataset and Efficient Data Augmentation}},
-  author={Intern{\`o}, Christian and Castellani, Andrea and Schmitt, Sebastian and Stella, Fabio and Hammer, Barbara},
-  journal={arXiv preprint arXiv:2506.20525},
-  year={2025}
+@misc{internò2025industrialenergydisaggregationdigital,
+      title={Industrial Energy Disaggregation with Digital Twin-generated Dataset and Efficient Data Augmentation}, 
+      author={Christian Internò and Andrea Castellani and Sebastian Schmitt and Fabio Stella and Barbara Hammer},
+      year={2025},
+      eprint={2506.20525},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.20525}, 
 }
 ```
 
