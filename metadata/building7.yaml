@@ -1,40 +1,41 @@
-instance: 7  
-original_name: Dealer_Tokyo   
+instance: 7
+original_name: Dealer_Tokyo
 elec_meters:
   1: &sided_whole_building
     site_meter: true
     device_model: SIDED_whole_building
-  2: *sided_whole_building
-  3: &emonitor
-    submeter_of: 0 
+  2: &emonitor      # Meter for EVSE
+    submeter_of: 1
     device_model: eMonitor
+  3: *emonitor      # Meter for PV
+  4: *emonitor      # Meter for CS  
+  5: *emonitor      # Meter for CHP
+  6: *emonitor      # Meter for BA
 
 appliances:
 - original_name: EVSE
-  type: Plug-in electric vehicle station
+  type: plug-in electric vehicle station
   instance: 1
-  meters: [3]   
+  meters: [2]   
 
 - original_name: PV
-  type: Photovoltaic system total power
+  type: photovoltaic system total power
+  instance: 1
+  meters: [3]
+
+- original_name: CS
+  type: cooling systems total power
   instance: 1
   meters: [4]
 
-- original_name: CS
-  type: Cooling Systems total power
-  instance: 1
-  meters: [5]
-
 - original_name: CHP
-  type: Combined heat and power    
+  type: combined heat and power total
   instance: 1
   multiple: true  
-  meters: [6]
+  meters: [5]
 
 - original_name: BA
-  type: Backgorund appliance 
-  instance: 2   
-  multiple: true   
-  meters: [7]
-
-
+  type: server computer
+  instance: 1
+  multiple: true
+  meters: [6]
