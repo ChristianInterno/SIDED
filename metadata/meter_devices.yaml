@@ -12,7 +12,7 @@ eMonitor:
     lower_limit: -50000
   wireless: false
 
- SIDED_whole_building:
+SIDED_whole_building:
   description: >
     Each facility type in the dataset contains profiles for five different appliances: Electric Vehicle Supply Equipment (EVSE), Cooling Systems (CS), Photo  Voltaic (PV), Combined Heat and Power (CHP), and Background Appliances (BA), which sums up all smaller devices such as personal computers, various machinery, servers, or other household appliances.
     The EVSE, BA and SC are consumers of electrical energy, while PV and CHP are producers.
