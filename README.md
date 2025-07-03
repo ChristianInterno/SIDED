@@ -1,8 +1,8 @@
 # Synthetic Industrial Dataset for Energy Disaggregation (SIDED)
 
 [![Download SIDED Dataset](https://img.shields.io/badge/Download-Dataset-blue.svg)](https://figshare.com/s/f824da90af2d8318de6a)
+[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/YourUsername/YourDatasetName)
 [![Paper](https://img.shields.io/badge/arXiv-2506.20525-b31b1b.svg)](https://arxiv.org/abs/2506.20525)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repo-green.svg)](https://github.com/ChristianInterno/SIDED)
 
 ---
 
@@ -16,13 +16,13 @@ If you use the SIDED dataset or the AMDA method in your research, please cite th
 
 ```bibtex
 @misc{internò2025industrialenergydisaggregationdigital,
-      title={Industrial Energy Disaggregation with Digital Twin-generated Dataset and Efficient Data Augmentation}, 
-      author={Christian Internò and Andrea Castellani and Sebastian Schmitt and Fabio Stella and Barbara Hammer},
-      year={2025},
-      eprint={2506.20525},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2506.20525}, 
+      title={Industrial Energy Disaggregation with Digital Twin-generated Dataset and Efficient Data Augmentation}, 
+      author={Christian Internò and Andrea Castellani and Sebastian Schmitt and Fabio Stella and Barbara Hammer},
+      year={2025},
+      eprint={2506.20525},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={[https://arxiv.org/abs/2506.20525](https://arxiv.org/abs/2506.20525)}, 
 }
 ```
 
@@ -36,15 +36,15 @@ If you use the SIDED dataset or the AMDA method in your research, please cite th
 
 SIDED provides nine full years of data, representing one year for each of the nine unique facility configurations.
 
-| Characteristic         | Description                                                                                                                           |
+| Characteristic         | Description                                                                                                                           |
 | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
-| **Total Configurations** | 9 (3 Facility Types × 3 Locations)                                                                                         |
-| **Facility Types** | Office, Dealer, Logistics Center                                                                                           |
-| **Geographic Locations**| Offenbach (Germany), Los Angeles (USA), Tokyo (Japan)                                                                          |
+| **Total Configurations** | 9 (3 Facility Types × 3 Locations)                                                                                         |
+| **Facility Types** | Office, Dealer, Logistics Center                                                                                           |
+| **Geographic Locations**| Offenbach (Germany), Los Angeles (USA), Tokyo (Japan)                        _**This is a placeholder, please replace with your actual URL.**_ |
 | **Appliances Tracked** | 5: Combined Heat and Power (CHP), Cooling Systems (CS), EV Supply Equipment (EVSE), Photovoltaic (PV), and Background Appliances (BA). |
-| **Duration** | 9 years total (one complete calendar year per configuration).                                                                    |
-| **Sampling Rate** | $\tfrac{1}{60} \text{Hz}$ (one-minute intervals).                                                                                 |
-| **Total Data Points** | 4,730,400 (525,600 per configuration).                                                                                     |
+| **Duration** | 9 years total (one complete calendar year per configuration).                                                                    |
+| **Sampling Rate** | $\tfrac{1}{60} \text{Hz}$ (one-minute intervals).                                                                                 |
+| **Total Data Points** | 4,730,400 (525,600 per configuration).                                                  _**This is a placeholder, please replace with your actual URL.**_ |
 
 ![Example data from the SIDED dataset, showing various configurations and locations.](Img/plot_days-1.png)
 *Example week from SIDED showing the different behaviors for Office (Offenbach), Logistic (Los Angeles), and Dealer (Tokyo) configurations. Negative power values indicate generation from PV and CHP systems.*
