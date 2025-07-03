@@ -5,6 +5,8 @@
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repo-green.svg)](https://github.com/ChristianInterno/SIDED)
 
 ---
+[![arXiv](https://img.shields.io/badge/arXiv-2506.20525-b31b1b.svg)](https://arxiv.org/abs/2506.20525)
+
 
 ### Introduction
 Non-Intrusive Load Monitoring (NILM) in the industrial sector is critically limited by the scarcity of high-quality, public datasets, often due to privacy and security concerns. To address this gap, we introduce the **Synthetic Industrial Dataset for Energy Disaggregation (SIDED)**.
