@@ -1,7 +1,7 @@
 # Synthetic Industrial Dataset for Energy Disaggregation (SIDED)
 
 [![Download SIDED Dataset](https://img.shields.io/badge/Download-Dataset-blue.svg)](https://figshare.com/s/f824da90af2d8318de6a)
-[![Hugging Face Dataset]([https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/YourUsername/YourDatasetName](https://huggingface.co/datasets/CInterno/Synthetic_Industrial_Dataset_For_Energy_Disaggregation_SIDED))
+[![Hugging Face Dataset](https://huggingface.co/datasets/CInterno/Synthetic_Industrial_Dataset_For_Energy_Disaggregation_SIDED)
 [![Paper](https://img.shields.io/badge/arXiv-2506.20525-b31b1b.svg)](https://arxiv.org/abs/2506.20525)
 
 ---
